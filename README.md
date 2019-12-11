@@ -3,7 +3,7 @@
  * @version:
  * @Author: big bug
  * @Date: 2019-12-10 19:13:54
- * @LastEditTime: 2019-12-11 14:50:36
+ * @LastEditTime: 2019-12-11 14:53:10
  -->
 # vue-sortable
 
@@ -13,6 +13,7 @@
 
 # 预览图
 ##### 抱歉没有制作gif动态图，直接了一张图
+![简单截图](https://github.com/jianjiayi/VueSortable/blob/master/static/20191211144621.png)
 
 # 核心代码
 ```
