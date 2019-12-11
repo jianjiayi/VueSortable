@@ -3,7 +3,7 @@
  * @version:
  * @Author: big bug
  * @Date: 2019-12-10 19:13:54
- * @LastEditTime: 2019-12-11 14:28:07
+ * @LastEditTime: 2019-12-11 15:46:29
  -->
 <template>
   <div>
@@ -69,9 +69,9 @@ export default {
       this.activeName = val;
     },
     // 初始化拖拽
-    initSortable(index){
-      this.rowDrop(index);
-      this.columnDrop(index);
+    initSortable(){
+      this.rowDrop();
+      this.columnDrop();
     },
     //行拖拽
     rowDrop() {
