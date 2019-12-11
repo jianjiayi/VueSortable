@@ -3,7 +3,7 @@
  * @version:
  * @Author: big bug
  * @Date: 2019-12-10 19:13:54
- * @LastEditTime: 2019-12-11 16:34:55
+ * @LastEditTime: 2019-12-11 16:53:45
  -->
 <template>
   <div>
@@ -15,7 +15,7 @@
         :name="item.name"
       >
         <el-table :data="item.subList" align="left">
-          <el-table-column v-for="(v, i) in Table" :key="i" :prop="dropCol[i].prop" :label="item.v">
+          <el-table-column v-for="(v, i) in Table" :key="i" :prop="dropCol[i].prop" :label="v.label">
             <template slot-scope="scope">
               <el-button
                 v-if="dropCol[i].prop=='companyname'"
